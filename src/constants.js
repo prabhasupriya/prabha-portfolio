@@ -5,7 +5,7 @@ export const PROFILE = {
   tagline: "Fundamentals first. Scalability always.",
   github: "https://github.com/prabhasupriya",
   linkedin: "https://www.linkedin.com/in/prabha-supriya-bandaru-902a55299/",
-  email: "mailto:your.email@example.com",
+  email: "mailto:prabhasupriya.b@gmail.com",
   resumePath: "/resume.pdf",
   photoPath: "/profile.jpg",
   bioParagraphs: [
