@@ -4,7 +4,7 @@ A high-performance, single-page application (SPA) engineered to showcase technic
 
 ## 🚀 Live Deployment
 **URL:** [https://prabha-portfolio.vercel.app](https://prabha-portfolio-two.vercel.app/)
-*(Note: Replace with your actual Vercel/Netlify URL after deployment)*
+
 
 ---
 
@@ -79,8 +79,8 @@ A high-performance, single-page application (SPA) engineered to showcase technic
 
 ## 📫 Contact & Professional Links
 * **GitHub:** [prabhasupriya](https://github.com/prabhasupriya)
-* **LinkedIn:** [Your LinkedIn Link Here]
-* **Email:** [Your Professional Email Here]
+* **LinkedIn:** [https://www.linkedin.com/in/prabha-supriya-bandaru-902a55299/]
+* **Email:** [prabhasupriya.b@gmail.com]
 
 ---
 © 2026 Prabha Supriya Bandaru. All rights reserved.
