@@ -1,6 +1,0 @@
-Rename your résumé file to resume.pdf and replace this file.
-
-Vite serves everything in the public/ folder at the website root, so:
-  public/resume.pdf  →  https://yoursite.com/resume.pdf
-
-Delete this placeholder after adding resume.pdf.
