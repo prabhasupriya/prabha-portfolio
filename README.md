@@ -79,8 +79,8 @@ A high-performance, single-page application (SPA) engineered to showcase technic
 
 ## 📫 Contact & Professional Links
 * **GitHub:** [prabhasupriya](https://github.com/prabhasupriya)
-* **LinkedIn:** [https://www.linkedin.com/in/prabha-supriya-bandaru-902a55299/]
-* **Email:** [prabhasupriya.b@gmail.com]
+* **LinkedIn:**[linedin](https://www.linkedin.com/in/prabha-supriya-bandaru-902a55299/)
+* **Email:** [Gmail](prabhasupriya.b@gmail.com)
 
 ---
 © 2026 Prabha Supriya Bandaru. All rights reserved.
