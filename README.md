@@ -1,68 +1,86 @@
-# Prabha Supriya Bandaru — Portfolio
+# Prabha Supriya Bandaru — Professional Portfolio
 
-Personal portfolio site showcasing projects, skills, and contact information. Built as a single-page React application with responsive layout, scroll-driven motion, and accessibility-minded defaults.
+A high-performance, single-page application (SPA) engineered to showcase technical expertise in **Spring Boot**, **Machine Learning**, and **Full-Stack Development**. This portfolio is optimized for speed, accessibility, and responsive design, reflecting the standards required by industry-leading technology firms like Google and Amazon.
 
-## Live site
+## 🚀 Live Deployment
+**URL:** [https://prabha-portfolio.vercel.app](https://prabha-portfolio-two.vercel.app/)
+*(Note: Replace with your actual Vercel/Netlify URL after deployment)*
 
-**Deployment URL:** _Add your Vercel or Netlify URL here after first deploy._
+---
 
-Example: `https://your-project.vercel.app`
+## 🛠️ Tech Stack
 
-## Tech stack
+* **Frontend:** React 18 with Vite for optimized building and HMR.
+* **Styling:** Tailwind CSS v4 (Modern utility-first framework).
+* **Animations:** Framer Motion (Scroll-linked parallax and viewport-aware transitions).
+* **Icons:** Lucide React (Clean, accessible iconography).
 
-- [React 18](https://react.dev/) — UI
-- [Vite 5](https://vite.dev/) — dev server & production build
-- [Tailwind CSS v4](https://tailwindcss.com/) — styling
-- [Framer Motion](https://www.framer.com/motion/) — scroll-linked parallax and viewport animations
-- [Lucide React](https://lucide.dev/) — icons
+---
 
-## Prerequisites
+## 🌟 Featured Projects & Experience
 
-- [Node.js](https://nodejs.org/) 18+ (LTS recommended)
-- npm (comes with Node)
+### **Infosys Springboard — Spring Boot Internship**
+* Engineered scalable backend architectures using **Spring Boot** and **Java**.
+* Developed RESTful APIs and managed complex database schemas for enterprise-level applications.
+* Focused on modular software design and performance optimization.
 
-## Run locally
+### **Community Wave (Civic Engagement Platform)**
+* Developed a digital governance portal designed to empower citizen decision-making.
+* Implemented a **Citizen Dashboard** featuring:
+    * **Petition Management:** Drafting and tracking local community petitions.
+    * **Voting System:** Integrated polling for collective decision-making.
+    * **Community Access:** Real-time visibility into local issues and peer-raised problems.
 
-```bash
-git clone https://github.com/YOUR_USERNAME/my-portfolio.git
-cd my-portfolio
-npm install
-npm run dev
-```
+### **AI/ML Engineering**
+* **Custom Image Classifier:** Multi-class classification using **PyTorch** and Deep Learning.
+* **Forest Cover Type Classifier:** Predictive modeling using **LightGBM** for cartographic analysis.
+* **Recommendation Systems:** Built movie engines using **SVD Matrix Factorization**.
 
-Open **http://localhost:5173** in your browser.
+---
 
-## Build for production
+## ⚙️ Development Setup
 
-```bash
-npm run build
-npm run preview
-```
+### **Prerequisites**
+* **Node.js 24+** (Recommended for stability and performance).
+* **npm** (Package manager).
 
-The `dist/` folder contains static files ready for any static host.
+### **Local Installation**
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/prabhasupriya/prabha-portfolio.git](https://github.com/prabhasupriya/prabha-portfolio.git)
+    cd prabha-portfolio
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Launch development server:**
+    ```bash
+    npm run dev
+    ```
+4.  **View locally:** Open `http://localhost:5173` in your browser.
 
-## Resume PDF
+---
 
-Place your CV at **`public/resume.pdf`** so the **Download Resume** button opens it. Anything in **`public/`** is served from the site root (e.g. `/resume.pdf`).
+## 📂 Project Structure
 
-## Customize content
+* **`src/constants.js`**: Central data file for bio, skills, internships, and project details.
+* **`public/`**: Stores static assets like `profile.jpg` and `resume.pdf`.
+* **`src/App.jsx`**: Main logic and UI structure with Framer Motion integration.
 
-Edit **`src/constants.js`** for:
+---
 
-- Bio, headline, and social links (`PROFILE`)
-- Skill badges (`SKILLS`)
-- Project titles, descriptions, tags, and GitHub URLs (`PROJECTS`)
+## 📈 Performance & Accessibility
+* **Responsive Design:** Optimized for mobile, tablet, and ultra-wide desktops.
+* **Accessibility:** Implements `prefers-reduced-motion` logic for inclusive UX.
+* **Build Optimization:** Uses Vite’s multi-stage build process to ensure minimal payload size.
 
-Replace the placeholder email in `PROFILE.email` with a real `mailto:` address before deploying.
+---
 
-## Assignment checklist (quick reference)
+## 📫 Contact & Professional Links
+* **GitHub:** [prabhasupriya](https://github.com/prabhasupriya)
+* **LinkedIn:** [Your LinkedIn Link Here]
+* **Email:** [Your Professional Email Here]
 
-- Responsive navigation with mobile menu  
-- Sections: Hero, About, Skills, Projects, Contact, Footer  
-- Parallax on decorative background (`ParallaxDecor`)  
-- Multiple `whileInView` / stagger animations  
-- `prefers-reduced-motion` in global CSS + Framer `useReducedMotion`  
-
-## License
-
-Contents are personal portfolio material; adjust as you prefer for coursework submission.
+---
+© 2026 Prabha Supriya Bandaru. All rights reserved.
