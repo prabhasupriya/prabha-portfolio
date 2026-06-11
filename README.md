@@ -3,7 +3,7 @@
 A high-performance, single-page application (SPA) engineered to showcase technical expertise in **Spring Boot**, **Machine Learning**, and **Full-Stack Development**. This portfolio is optimized for speed, accessibility, and responsive design, reflecting the standards required by industry-leading technology firms like Google and Amazon.
 
 ## 🚀 Live Deployment
-**URL:** [https://prabha-portfolio.vercel.app](https://prabha-portfolio-two.vercel.app/)
+**URL:** [https://prabha-portfolio-two.vercel.app/]
 
 
 ---
