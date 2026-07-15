@@ -41,7 +41,6 @@ export const NAV_LINKS = [
   { id: "certifications", label: "Certifications" },
   { id: "experience", label: "Experience" },
   { id: "projects", label: "Projects" },
-  
   { id: "contact", label: "Contact" },
 ];
 
@@ -215,7 +214,7 @@ export const PROJECTS = [
     "REST API"
   ],
   githubRepo: "https://github.com/prabhasupriya/mulit_modal_image_analysis.git",
-  liveDemo: null
+ 
 },
 
   
@@ -226,7 +225,7 @@ export const PROJECTS = [
       "Real-time feature serving with FastAPI and Redis, achieving ~14ms latency. Async ingestion processing 100K+ feature updates with Redis-tuned access patterns. Docker Compose deployment, strong validation with Pydantic, and a clear path to production-style microservice operation.",
     tags: ["FastAPI", "Redis", "Docker", "Pydantic", "Async"],
     githubRepo: "https://github.com/prabhasupriya/feature_store_service",
-    liveDemo: null,
+    
   },
   {
     title: "Prompt Routing AI System",
@@ -235,7 +234,6 @@ export const PROJECTS = [
       "Engineered a scalable routing layer using intent classification and dynamic prompt selection, replacing monolithic prompts with modular expert personas. Classifier emits structured JSON {intent, confidence} with robust fallbacks; low-latency FastAPI pipeline with optimized LLM calls; route logging (route_log.jsonl) for observability; handles ambiguous queries, multi-intent inputs, and invalid responses.",
     tags: ["Python", "FastAPI", "LLM", "Intent classification", "JSON"],
     githubRepo: "https://github.com/prabhasupriya/llm-powered-prompt-for-intent-classification",
-    liveDemo: null,
   },
  
   {
@@ -251,6 +249,6 @@ export const PROJECTS = [
     ],
     tags: ["Python", "Ollama", "Llama 3.2", "Prompt engineering", "Evaluation"],
     githubRepo: "https://github.com/prabhasupriya/offline-chatbot",
-    liveDemo: null,
+    
   },
 ];

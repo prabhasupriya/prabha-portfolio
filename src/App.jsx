@@ -17,6 +17,7 @@ import {
   INTERNSHIPS,
   ACHIEVEMENTS,
   SKILL_GROUPS,
+  CERTIFICATIONS,
 } from "./constants";
 import { Navbar } from "./components/Navbar";
 import { ParallaxDecor } from "./components/ParallaxDecor";
@@ -344,7 +345,44 @@ function App() {
             ))}
           </div>
         </section>
+            {/* Certifications */}
+<section
+  id="certifications"
+  className={`${sectionPad} py-24 border-t border-white/5`}
+>
+  <motion.div {...inView}>
+    <h2 className="text-2xl font-bold text-white mb-12 text-center">
+      Certifications
+    </h2>
 
+    <div className="grid md:grid-cols-2 gap-6">
+      {CERTIFICATIONS.map((cert) => (
+        <div
+          key={cert.title}
+          className="p-6 rounded-2xl border border-white/10 bg-white/[0.03] hover:border-cyan-500/40 transition"
+        >
+          <h3 className="text-lg font-semibold text-white">
+            {cert.title}
+          </h3>
+
+          <p className="text-sm text-slate-400 mb-4">
+            {cert.issuer}
+          </p>
+
+          <a
+            href={cert.link}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300"
+          >
+            <ExternalLink className="w-4 h-4" />
+            View Certificate
+          </a>
+        </div>
+      ))}
+    </div>
+  </motion.div>
+</section>
         {/* Contact */}
         <section id="contact" className={`${sectionPad} py-24 border-t border-white/5`}>
           <motion.div
