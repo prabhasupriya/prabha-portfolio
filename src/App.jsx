@@ -330,17 +330,33 @@ function App() {
                     </span>
                   ))}
                 </div>
-                {p.githubRepo && (
-                  <a
-                    href={p.githubRepo}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex items-center gap-2 text-sm font-semibold text-cyan-400 hover:text-cyan-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-500 rounded w-fit"
-                  >
-                    <Github className="w-4 h-4" />
-                    View on GitHub
-                  </a>
-                )}
+                <div className="flex gap-4 mt-auto">
+
+  {p.githubRepo && (
+    <a
+      href={p.githubRepo}
+      target="_blank"
+      rel="noreferrer"
+      className="inline-flex items-center gap-2 text-sm font-semibold text-cyan-400 hover:text-cyan-300"
+    >
+      <Github className="w-4 h-4" />
+      GitHub
+    </a>
+  )}
+
+  {p.liveDemo && (
+    <a
+      href={p.liveDemo}
+      target="_blank"
+      rel="noreferrer"
+      className="inline-flex items-center gap-2 text-sm font-semibold text-violet-400 hover:text-violet-300"
+    >
+      <ExternalLink className="w-4 h-4" />
+      Live Demo
+    </a>
+  )}
+
+</div>
               </motion.article>
             ))}
           </div>
