@@ -303,11 +303,13 @@ function App() {
                       <p className="text-sm text-violet-400/90 mt-1 font-medium">{p.subtitle}</p>
                     ) : null}
                   </div>
-                  <ExternalLink
-                    size={18}
-                    className="text-slate-600 group-hover:text-cyan-400 transition-colors shrink-0 mt-1"
-                    aria-hidden
-                  />
+                  {p.liveDemo && (
+  <ExternalLink
+    size={18}
+    className="text-slate-600 group-hover:text-cyan-400 transition-colors shrink-0 mt-1"
+    aria-hidden
+  />
+)}
                 </div>
                 <p className="text-slate-500 text-sm mb-6 flex-grow leading-relaxed">{p.description}</p>
                 {p.keyMetrics?.length ? (
