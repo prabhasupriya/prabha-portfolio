@@ -38,8 +38,10 @@ export const NAV_LINKS = [
   { id: "home", label: "Home" },
   { id: "about", label: "About" },
   { id: "skills", label: "Skills" },
+  { id: "certifications", label: "Certifications" },
   { id: "experience", label: "Experience" },
   { id: "projects", label: "Projects" },
+  
   { id: "contact", label: "Contact" },
 ];
 
@@ -64,6 +66,95 @@ export const SKILL_GROUPS = {
   ],
   tools: ["Tableau", "Excel", "Docker", "Git & CI", "SQL", "FastAPI", "Redis"],
 };
+export const CERTIFICATIONS = [
+  {
+    title: "Oracle Cloud Infrastructure 2025 Foundations Associate",
+    issuer: "Oracle",
+    link: "https://drive.google.com/file/d/1vd7E3l9UmjvGp07auOGd1f5X3tMDRZ8G/view?usp=sharing",
+  },
+  {
+    title: "Google Cloud Career Launchpad – Generative AI Leader Track",
+    issuer: "Google Cloud",
+    link: "https://drive.google.com/file/d/1C7-OIc4ZuU8wZIYXNIMOr43rmqOrVDjR/view?usp=sharing",
+  },
+  {
+    title: "NVIDIA Fundamentals of Deep Learning",
+    issuer: "NVIDIA",
+    link: "https://drive.google.com/file/d/1e4R0slJR7-sMvPmfbs7S6oX_yd0vIs9E/view?usp=sharing",
+  },
+  {
+    title: "NPTEL Artificial Intelligence",
+    issuer: "NPTEL",
+    link: "https://drive.google.com/file/d/1JVMMoEvNIuYXFjsAJJ-gVxoEB_Pv4S2f/view?usp=sharing",
+  },
+  {
+    title: "NPTEL DBMS",
+    issuer: "NPTEL",
+    link: "https://drive.google.com/file/d/1pf1Kvn0255jgLAEuI3VkP5i7J7tyqdJA/view?usp=sharing",
+  },
+  {
+    title: "Cisco Python Essentials 1",
+    issuer: "Cisco",
+    link: "https://drive.google.com/file/d/1p-OroUrBk7rkqVQg5ZsyXiKmCGsloLZ2/view?usp=sharing",
+  },
+  {
+    title: "Cisco Python Essentials 2",
+    issuer: "Cisco",
+    link: "https://drive.google.com/file/d/1p-OroUrBk7rkqVQg5ZsyXiKmCGsloLZ2/view?usp=sharing",
+  },
+  {
+    title: "Cisco Data Science",
+    issuer: "Cisco",
+    link: "https://drive.google.com/file/d/1p-OroUrBk7rkqVQg5ZsyXiKmCGsloLZ2/view?usp=sharing",
+  },
+  {
+    title: "Cisco Modern AI",
+    issuer: "Cisco",
+    link: "https://drive.google.com/file/d/1p-OroUrBk7rkqVQg5ZsyXiKmCGsloLZ2/view?usp=sharing",
+  },
+  {
+    title: "Cisco CSS Essentials",
+    issuer: "Cisco",
+    link: "https://drive.google.com/file/d/1p-OroUrBk7rkqVQg5ZsyXiKmCGsloLZ2/view?usp=sharing",
+  },
+  {
+    title: "Accenture Software Engineering Virtual Experience",
+    issuer: "Forage",
+    link: "https://drive.google.com/file/d/10xmvbUBHUJWTKtr1sJj8ZLvoj2rn7I48/view?usp=sharing",
+  },
+  {
+    title: "Deloitte GenAI Virtual Experience",
+    issuer: "Forage",
+    link: "https://drive.google.com/file/d/1c5K56vzLlvPCHiNL31mZe1o_11uvcYeS/view?usp=sharing",
+  },
+  {
+    title: "GeeksforGeeks Full Stack",
+    issuer: "GeeksforGeeks",
+    link: "https://drive.google.com/file/d/1R5mCo8ccghc_s9Mo1mqCxA9mxW30Su63/view?usp=sharing",
+  },
+  {
+    title: "Tata GenAl Powered Data Analytics Job Simulation",
+    issuer: "Forage",
+    link:"https://drive.google.com/file/d/1GdIVGVkryRl4DQcRrBjtmdV6TFuKj7WF/view?usp=sharing"
+    
+  },
+  {
+title: "Goldman Sachs Controllers Job Simulation",
+    issuer: "Forage",
+    link:"https://drive.google.com/file/d/1XhA0KXT62UYcjw9-urF44qqkjXsoo12k/view?usp=sharing"
+  },
+
+  {
+    title: "Coursera React.js",
+    issuer: "Coursera",
+    link: "https://drive.google.com/file/d/1m0xNgjoXLSYL64XWF6DM97GuOqO2lkpY/view?usp=sharing",
+  },
+  {
+    title: "Udemy Python Bootcamp & Udemy C Programming ",
+    issuer: "Udemy",
+    link: "https://drive.google.com/file/d/1jmDlx05amfCEPLRhG0B9yVl7CCjkev_8/view?usp=sharing",
+  },
+];
 
 export const INTERNSHIPS = [
   {
@@ -92,16 +183,42 @@ export const ACHIEVEMENTS = [
   "Hands-on internship experience with Infosys focused on Spring Boot–oriented application development.",
 ];
 
+
 export const PROJECTS = [
   {
-    title: "Prompt Routing AI System",
-    subtitle: "Intent-based multi-agent LLM service",
-    description:
-      "Engineered a scalable routing layer using intent classification and dynamic prompt selection, replacing monolithic prompts with modular expert personas. Classifier emits structured JSON {intent, confidence} with robust fallbacks; low-latency FastAPI pipeline with optimized LLM calls; route logging (route_log.jsonl) for observability; handles ambiguous queries, multi-intent inputs, and invalid responses.",
-    tags: ["Python", "FastAPI", "LLM", "Intent classification", "JSON"],
-    githubRepo: "https://github.com/prabhasupriya/llm-powered-prompt-for-intent-classification",
-    liveDemo: null,
-  },
+  title: "AI-Powered Universal Microservices Translation Suite",
+  subtitle: "Django, Flask, Groq, Llama 3.3",
+  description:
+    "Built a multilingual AI translation platform using a Django–Flask microservice architecture. Integrated Groq Whisper-Large-v3 for speech recognition and Llama 3.3-70B for context-aware translation, enabling multilingual voice translation with asynchronous request handling.",
+  tags: [
+    "Django",
+    "Flask",
+    "Groq",
+    "Llama 3.3",
+    "Whisper",
+    "REST API"
+  ],
+  githubRepo: "https://github.com/prabhasupriya/AI_LANGUAGE_TRANSLATOR_QGENAIPROJECT.git",
+  liveDemo: "https://ai-language-translator-qgenaiproject-2.onrender.com",
+},
+  {
+  title: "Multi-Modal Image Analysis & Generation Platform",
+  subtitle: "Next.js, FastAPI, Gemini API, Image Generation",
+  description:
+    "Built a full-stack AI application capable of analyzing uploaded images, answering visual questions, generating AI-powered image descriptions, and creating new images from text prompts. Integrated FastAPI backend services with a responsive Next.js frontend and deployed the application on Render.",
+  tags: [
+    "Next.js",
+    "FastAPI",
+    "Generative AI",
+    "Gemini",
+    "Image Analysis",
+    "REST API"
+  ],
+  githubRepo: "https://github.com/prabhasupriya/mulit_modal_image_analysis.git",
+  liveDemo: null
+},
+
+  
   {
     title: "ML Feature Store Backend",
     subtitle: "FastAPI, Redis, Docker",
@@ -112,14 +229,15 @@ export const PROJECTS = [
     liveDemo: null,
   },
   {
-    title: "Movie Recommendation System",
-    subtitle: "Matrix factorization & serving",
+    title: "Prompt Routing AI System",
+    subtitle: "Intent-based multi-agent LLM service",
     description:
-      "Recommendation engine using matrix factorization (SVD-style workflows) and classical ML, exposed through a clean API surface for consistent client queries — personalized suggestions backed by solid evaluation and reproducible pipelines.",
-    tags: ["Python", "Scikit-learn", "Machine Learning", "API"],
-    githubRepo: "https://github.com/prabhasupriya/recommendation_system",
+      "Engineered a scalable routing layer using intent classification and dynamic prompt selection, replacing monolithic prompts with modular expert personas. Classifier emits structured JSON {intent, confidence} with robust fallbacks; low-latency FastAPI pipeline with optimized LLM calls; route logging (route_log.jsonl) for observability; handles ambiguous queries, multi-intent inputs, and invalid responses.",
+    tags: ["Python", "FastAPI", "LLM", "Intent classification", "JSON"],
+    githubRepo: "https://github.com/prabhasupriya/llm-powered-prompt-for-intent-classification",
     liveDemo: null,
   },
+ 
   {
     title: "Offline Customer Support Chatbot",
     subtitle: "Ollama + Llama 3.2 (3B), privacy-first local AI",
