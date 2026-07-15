@@ -71,7 +71,7 @@ function App() {
               {PROFILE.name}
             </h1>
             <p className="text-cyan-300/90 text-sm md:text-base font-medium uppercase tracking-[0.16em] mb-3">
-              Enthusiastic Learner
+               AI Engineer • Backend Systems • LLM Orchestration
             </p>
             <p className="text-xl text-slate-400 mb-8 italic">{PROFILE.tagline}</p>
 

@@ -9,6 +9,7 @@ export const PROFILE = {
   resumePath: "/resume.pdf",
   photoPath: "/profile.jpg",
   bioParagraphs: [
+    "I'm an AI Engineer focused on backend systems, LLM orchestration, and production-ready ML infrastructure. I enjoy building scalable AI applications using FastAPI, Django, Docker, Redis, and modern LLM frameworks.",
     "I am a developer focused on production-minded systems — from intent-aware AI routing and low-latency backends to classical ML and recommendations — prioritizing clarity, observability, and behavior under load rather than demos alone.",
     "I prioritize readable code and deep fundamentals: data structures, algorithms, operating systems, and layered backend design across Java/Spring Boot, Python services, and data-heavy pipelines.",
     "At Infosys I developed a Spring Boot application for citizens with polls, petitions, and community modules, including login/logout and role-based access for creating and viewing petitions by individual users and the wider community.",
